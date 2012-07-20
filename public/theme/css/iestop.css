@@ -1,0 +1,24 @@
+html, body, img, div, a, span { margin:0; padding:0; }
+html, body { height:100%; width:100%; font-family: Tahoma; color:#000; font-size:12px; background:#e3e3e3;}
+html { }
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; font-weight:normal; }
+a {outline:none; color:#000000;}
+img {border:none;}
+
+.iestopper{
+	width:100%;
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	margin:0 auto;
+	background-color:#ffe;
+}
+.iestopper .container { width:800px; margin: 200px auto; background:#D8E9EC; padding:50px;}
+.iestopper .container h1 { font-size: 20px;}
+.iestopper .container .text { font-size:12px; margin:0 0 30px 0; }
+.iestopper .container .links a {display:block; float:left; width:158px; height:120px; text-align:center; }
+.iestopper .container .links a span { font-size:12px; font-weight:bold; }
+.iestopper .container .links a.mozilla { background:url(/theme/iestop/firefox.png) center 20px no-repeat; }
+.iestopper .container .links a.crome { background:url(/theme/iestop/chrome.png) center 20px no-repeat; }
+.iestopper .container .links a.ie { background:url(/theme/iestop/ie.png) center 20px no-repeat; }
+.iestopper .container .links a.opera { background:url(/theme/iestop/opera.png) center 20px no-repeat; }
