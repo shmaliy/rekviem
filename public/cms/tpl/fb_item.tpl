@@ -1,1 +1,0 @@
-<div><a class="icon" href="{#link#}"><img src="{#icon#}" /></a><a class="text" href="{#link#}">{#name#}</a><span class="size">{#size#}</span></div>

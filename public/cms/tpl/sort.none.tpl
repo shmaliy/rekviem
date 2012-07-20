@@ -1,1 +1,0 @@
-<img src="/cms/images/blank.png" width="16" height="16"/><img src="/cms/images/blank.png" width="16" height="16"/>
