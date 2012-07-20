@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module type="module">
+	<name>РњРµРЅРµРґР¶РµСЂ РјРµРЅСЋ</name>
+	<shortname>РњРµРЅСЋ</shortname>
+	<author>OBS</author>
+	<creationDate>2010-02-24</creationDate>
+	<copyright>(C) OBS. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>pavlenko.evgeniy@obs.biz.ua</authorEmail>
+	<authorUrl>www.obs.biz.ua</authorUrl>
+	<version>1.0.0</version>
+	<group>menu</group>
+	<groupname>РњРµРЅСЋ</groupname>
+	<groupicon16>icon-16-menu</groupicon16>
+	<groupicon48>icon-48-menu</groupicon48>
+	<icon16>icon-16-menu</icon16>
+	<icon48>icon-48-menu</icon48>
+	<ordering>50</ordering>
+	<acesslevel>20</acesslevel>
+</module>

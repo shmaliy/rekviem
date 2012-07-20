@@ -1,0 +1,1 @@
+<a href="{#func#}"><img src="{#icon#}"><span>{#title#}</span></a>

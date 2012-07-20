@@ -1,0 +1,1 @@
+<img src="/cms/images/blank.png" width="16" height="16"/><img src="/cms/images/downarrow.png" onClick="call('{#name#}', '_reorder', ['down', {#id#}]);" style="cursor:pointer;"/>
