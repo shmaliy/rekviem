@@ -1,0 +1,133 @@
+html, body, img, div, a, span { margin:0; padding:0; }
+html, body { height:100%; width:100%; font-family: 'Tahoma'; font-weight:400; color:#000;}
+html { background-color:#d8d7d7; }
+a {outline:none; color:#333333;}
+img {border:none;}
+
+.header { position:absolute; width:100%; height:150px; left:0; }
+.header_resize { width:1000px; height:150px; margin:0 auto; background:url(/theme/img/header_bg.png) top center; }
+.logo { float:left; margin:28px 15px 0 24px; width:329px; height:44px;}
+.logo_text { float:left; font-size:18px; color:#000; padding:38px 0 0 0;}
+
+.footer { width:100%; height:53px; margin-top:-53px;}
+.footer_resize { width:1000px; margin:0 auto; height:53px; background:url(/theme/img/footer_bg.png) top left repeat-x;}
+
+.push1 { height:150px;}
+.push2 { height:53px;}
+.clear { clear:both;}
+
+.body {
+	width:1000px;
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	background:#FFF;
+	margin:0 auto;
+}
+
+.deleteItem{display:block; width:12px; height:12px; background: url(/theme/img/admin/delete_12x12.png) top left no-repeat;}
+
+.menu { float:left; margin:18px 0 0 0; background:url(/theme/img/mainmenu_bg.png) top left repeat-x; width:1000px;}
+.new_menu { margin:0 0 0 0; height:39px; top left no-repeat; padding:0; list-style:none;}
+.new_menu li{float:left; position:relative;}
+.new_menu li a{  font-size:18px; color:#FFFFFF; text-decoration:none; height:39px; padding: 6px 0px 0 25px; display:block;}
+.new_menu li a:hover{}
+.new_menu li a.current{}
+.new_menu .divider{ float:left; height:39px; width:3px; background:url(/contents/partners/menu_divider.png); padding:0; margin:0;}
+.new_menu .dropdown{ display:none; position:absolute; padding:0; list-style:none; width:200px; z-index:100000; top:39px; left:18px;}
+.new_menu .dropdown li{ background-color:#ccc; display:block; float:none;}
+.new_menu .dropdown a{ display:block; padding:5px 0 10px 0; margin:0 15px; height:auto; font-size:14px; color:#000; text-decoration:none;}
+.new_menu .dropdown a:hover{ background:none;}
+.new_menu .dropdown li.drop_bottom{ width:200px; height:12px; font-size:0;}
+.new_menu li.hover .dropdown{ display:block;}
+
+.tooltips_container {position:absolute; top:0; right:0; padding:25px 25px 0 0; z-index:1000000;}
+.tooltips_container .tooltip {width:295px; height:126px; background:url(/theme/img/admin/tooltip_bg.png) top left no-repeat;}
+.tooltips_container .tooltip .text {background:none; width:245px; height:76px;padding:20px 30px 30px 20px; font-size:12px; font-weight:bold; color:#fff;}
+
+.controlButton{float:right; margin:0 10px 0 0; width:32px; height:32px; border:0;}
+.closeButton{float:right; margin:0 10px 0 0; width:32px; height:32px; border:0; display:block; background:url(/theme/img/admin/close_32x32.png) top center no-repeat;}
+.addButton{float:right; margin:0 10px 0 0; width:32px; height:32px; border:0; display:block; background:url(/theme/img/admin/new_32x32.png) top center no-repeat;}
+.moveButton{float:right; margin:0 10px 0 0; width:32px; height:32px; border:0; display:block; background:url(/theme/img/admin/move_32x32.png) top center no-repeat;}
+.removeButton{float:right; margin:0 10px 0 0; width:32px; height:32px; border:0; display:block; background:url(/theme/img/admin/delete_32x32.png) top center no-repeat;}
+
+.admin_container { margin:25px 15px 25px 25px;}
+.admin_container .page_title{ margin:0 20px 20px 0; font-size:20px; color:#a60300; width:560px; float:left;}
+.admin_container .controls {width:360px; margin: 0 20px 20px 0; float:left; text-align:right; }
+
+.admin_container .page_content{width:960px;}
+.index_block {border-bottom: 1px dashed #ccc; width:940px; margin:0 30px 25px 0;}
+.index_block .title {margin:10px 15px 20px 0px; font-size:16px; color:#252525; font-weight:bold;}
+.index_block .items_container {margin:0 15px 20px 0;}
+.index_block .all_link { margin:0 0 15px 0; color:red; font-weight:bold; display:block; font-size:12px;} 
+.items_table {width:940px;}
+.items_table thead tr td{vertical-align:top; font-size:12px; font-weight:bold; padding:5px 10px; color:#4b4b4b; background:#f1f1f1; border-bottom:1px dashed #ccc;}
+.items_table tbody tr td{vertical-align:top; font-size:12px; padding:5px 10px; color:#000; border-bottom:1px dashed #ccc;}
+
+.page_content{width: 960px;}
+.page_content .left_form{float:left; width:640px; margin: 0 30px 0 0;}
+.page_content .right_form{float:left; width:290px;} 
+.page_content .left_form .form_title{margin: 0 0 20px 0;}
+.page_content .left_form .form_title .type{margin:0 0 10px 0;}
+.page_content .left_form .form_title .type span {display:block; float:left; width:200px; font-size:12px; font-weight:bold;}
+.page_content .left_form .form_title .type select {display:block; float:left; width:250px;}
+
+.page_content .left_form .form_title .title{margin:0 0 15px 0;}
+.page_content .left_form .form_title .title span {display:block; float:left; width:200px; font-size:12px; font-weight:bold;}
+.page_content .left_form .form_title .title input {display:block; float:left; width:250px;}
+.page_content .left_form .description{}
+.page_content .left_form .description span {display:block; font-size:12px; font-weight:bold; margin:0 0 5px 0;}
+.page_content .left_form .description textarea {}
+
+.page_content .left_form .images {width:635px; background:#f0f0f0; margin:20px 0 25px 0; border:1px dashed #ccc;}
+.page_content .left_form .images .title {font-size:14px; font-weight:bold; margin:10px 15px 20px 15px;}
+.page_content .left_form .images .control {font-size:12px; margin:0 15px 20px 15px;}
+
+.page_content .right_form fieldset {border:1px dashed #ccc; margin:0 0 15px 0;}
+.page_content .right_form fieldset legend {font-size:12px; font-weight:bold;}
+
+.page_content .right_form .created .calendInpt {width: 220px;}
+.page_content .right_form .created .calendBtn {width:30px; height:24px; margin:3px 0 0 0; border:0; background:url(/theme/img/admin/calendar_24x24.png) top center no-repeat;}
+
+.page_content .right_form .hits input {width: 260px;}
+
+.page_content .right_form .hot_offer span{ width:220px; font-size:12px; display:block; float:left;}
+.page_content .right_form .hot_offer .saled span {float:left; width:80px; margin:2px 0 0 0;}
+.page_content .right_form .hot_offer .saled .calendInpt {float:left; width:130px;}
+.page_content .right_form .hot_offer .saled .calendBtn {float:left; width:30px; height:24px; margin:-2px 0 0 0; border:0; background:url(/theme/img/admin/calendar_24x24.png) top center no-repeat;}
+
+.page_content .right_form fieldset .condition {float:left; width:80px; font-size:12px; margin:2px 0 0 0;}
+.page_content .right_form fieldset .condition_select {float:left; width:160px; margin:0 0 10px 0;}
+
+.page_content .right_form fieldset .used_resource {float:left;}
+.page_content .right_form fieldset .resource_legend {float:left; font-size:12px; margin:2px 0 10px 5px;}
+
+#main_parameter div {font-size:12px; font-weight:bold; margin:25px 0 10px 0;}
+#main_parameter select {width:260px;}
+
+.page_content .param_element {margin:0 0 15px 0;}
+.page_content .param_element span {display:block; float:left; width:150px; font-size:12px;}
+.page_content .param_element .select {float:left; width:300px;}
+.page_content .param_element .title {float:left; width:296px;}
+
+.filters div{float:left; margin:0 20px 0 0;}
+.filters div span {font-size:12px; font-weight:bold; margin:0 15px 0 0;}
+.filters div select {}
+
+.contents_table {width:940px; margin:20px 0 25px 0;}
+.contents_table thead td {font-size:12px; font-weight:bold; padding:5px 10px;color:#4b4b4b; background:#f1f1f1; border-bottom:1px dashed #ccc;}
+.contents_table tbody td {font-size:12px; padding:5px 10px; border-bottom:1px dashed #ccc; vertical-align:top;}
+
+.mainimage_container{margin: 15px 15px 10px 10px;}
+.mainimage_container .dtitle{font-size:12px; font-weight:bold; color:#ff6600; margin:0 0 10px 0;}
+.mainimage_container .mainimage {width:100px; background:#fff; height:100px; float:left; margin:0 10px 10px 0; border:1px dashed #ccc; padding:15px;}
+
+.otherimage_container{margin: 15px 15px 10px 10px}
+.otherimage_container .dtitle{font-size:12px; font-weight:bold; color:#888; margin:0 0 10px 0;}
+.otherimage_container .otherimage {width:100px; background:#fff; height:100px; float:left; margin:0 10px 10px 0; border:1px dashed #ccc; padding:15px;}
+
+.removeImg {float:left; margin:5px 5px 5px 5px; display:block; width:12px; height:12px; background:url(/theme/img/admin/delete.png) top center no-repeat;}
+.leftImg {float:left; margin:5px 5px 5px 5px; display:block; width:12px; height:12px; background:url(/theme/img/admin/left_arrow.png) top center no-repeat;}
+.rightImg {float:left; margin:5px 5px 5px 5px; display:block; width:12px; height:12px; background:url(/theme/img/admin/right_arrow.png) top center no-repeat;}
+.upImg {float:left; margin:5px 5px 5px 5px; display:block; width:12px; height:12px; background:url(/theme/img/admin/make_main.png) top center no-repeat;}
+

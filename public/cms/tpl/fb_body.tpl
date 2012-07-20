@@ -1,0 +1,4 @@
+<div class="folders"><div class="txt">Папка:</div><select id="fb_path" onchange="call('core_fb','_fb_setpath',this.value);">{#folders#}</select><div class="f_mode"><select id="fb_mode" onchange="call('core_fb','_fb_setmode',this.value);">{#fbmode#}</select><a class="uppath" id="fb_uppath" href="javascript:call('core_fb','_fb_setpath','{#uppath#}');"><img class="f_up" src="{#basedir#}/images/folder_up3.png" /></a><a class="refresh" id="fb_refresh" href="javascript:call('core_fb','_fb_setpath','{#currpath#}');"><img class="f_up" src="{#basedir#}/images/refresh.png" /></a></div></div>
+<div id="filebrowser_items" class="{#fbmode2#}">
+	{#items#}
+</div>

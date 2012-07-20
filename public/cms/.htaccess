@@ -1,0 +1,22 @@
+AddDefaultCharset UTF-8
+#Action throw /index.php
+#
+#<FilesMatch "^([^.]+)$">
+#ForceType throw
+#</FilesMatch>
+
+#<FilesMatch index.php>
+#ForceType application/x-httpd-php
+#</FilesMatch>
+
+RewriteEngine On
+RewriteBase /cms/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^.]+)$ /cms/index.php
+
+# File modified on Mon Nov  8 04:21:18 2010 by server
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value post_max_size 220M
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value upload_max_filesize 200M
